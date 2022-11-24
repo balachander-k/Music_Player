@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 178, 178);
+   
+}
+.container
+{
+    width: 25%;
+    min-height: 90vh;
+    /* background-color: rgb(30, 190, 9); */
+    background-image:url('b/ms.jpg');
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 12px grey;
+}
+h4
+{
+    text-align: center;
+    margin-top: 4px;
+    color:rgb(241, 21, 13);
+    font-size: 28px;
+    font-weight: bold;
+}
+img 
+{
+    width: 80%;
+    height: 50%;
+    margin: 10% 10% 5% 10%;
+    border-radius: 14px;
+    box-shadow: 10px 10px 5px grey;
+}
+p
+{
+    text-align: center;
+    margin: 4px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color:rgb(241, 21, 13);
+}
+input
+{
+    width: 80%;
+    margin: 3% 10%;
+}
+button
+{
+    padding: 25px;
+    margin-top: 3%;
+    margin-left: 13%;
+    margin-bottom: 15%;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5),
+                -1px -1px 1px white;
+}
+button:hover
+{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.5),
+    -1px -1px 1px white;;
+}
+marquee
+{
+    width: 80%;
+    margin-left: 10%;
+    color:rgb(241, 21, 13);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+@media  screen and (max-width:1200px) {
+    .container
+    {
+        width: 30%;
+    }
+}
+@media  screen and (max-width:450px) {
+    .container
+    {
+        width: 70%;
+    }
+}
